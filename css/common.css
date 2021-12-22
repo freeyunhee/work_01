@@ -39,11 +39,11 @@
 
 .btn_area {display: flex;justify-content: center;border-bottom: 1px solid #d1c7a3;}
 
-.btn_shop_all {display: inline-block;margin: 20px 0;font-size: 10px;transition: all 0.3s;position: relative;}
+.btn_shop_all {display: inline-block;margin: 20px 0;font-size: 10px;transition: 0.3s;position: relative;}
 
 .btn_shop_all::after {content: "";background: transparent;
     position: absolute;bottom: 0;left: 0;right: 0;height: 1px;
-    transition: all 0.8s;transform: scaleX(0);transform-origin: left;}
+    transition: 0.8s;transform: scaleX(0);transform-origin: left;}
 
 .btn_shop_all:hover {color: #645832;}
 

@@ -25,7 +25,6 @@ $(function(){
     });
 
 
-
     $(window).scroll(function(){
 
         curr = $(this).scrollTop();
@@ -37,11 +36,11 @@ $(function(){
     });
 
 
-    $('.nav_area').hide();
+    // $('.nav_area').hide();
     $('.logo_area .menu_all').click(function(e){
         e.preventDefault();
         $('.logo_area').toggleClass('on');
-        $('.nav_area').slideToggle();
+        $('.nav_area').toggleClass('on');
     });
 
 
@@ -124,7 +123,7 @@ $(function(){
             start:'top 50%',
             end:'50% top',
             // markers:true,
-            toggleActions: 'restart none none resume',
+            // toggleActions: 'restart none none resume',
         },
         opacity:1,
         stagger: 0.3,
@@ -137,7 +136,7 @@ $(function(){
             start:'top 50%',
             end:'50% top',
             // markers:true,
-            toggleActions: 'restart none none resume',
+            // toggleActions: 'restart none none resume',
         },
         y:0,
         stagger: 0.5,
@@ -151,7 +150,7 @@ $(function(){
             start:'top 30%',
             end:'bottom top',
             // markers:true,
-            toggleActions: 'restart none none resume',
+            // toggleActions: 'restart none none resume',
         },
         opacity:1,
         duration: 1.5,
@@ -164,7 +163,7 @@ $(function(){
             start:'top 30%',
             end:'bottom top',
             // markers:true,
-            toggleActions: 'restart none none resume',
+            // toggleActions: 'restart none none resume',
         },
         opacity:1,
         y:0,
@@ -177,7 +176,7 @@ $(function(){
             start:'top 30%',
             end:'bottom top',
             // markers:true,
-            toggleActions: 'restart none none resume',
+            // toggleActions: 'restart none none resume',
         },
         opacity:1,
         y:0,
