@@ -179,6 +179,7 @@ footer .f_info .made_by span:hover::after {background: currentColor;transform: s
     header .nav_area.on {top: 50px;bottom: 0;}
     header .nav_area .gnb {width: 100%;padding: 15px 20px 20px;}
     header .nav_area .gnb_img {display: none;}
+    header .nav_area .gnb_img img {display: none;}
     .sc_introduce .img_box {display: none;}
     footer .f_info {padding: 10px 20px;font-size: 10px;}
 }
