@@ -55,7 +55,7 @@ $(function(){
     })
 
     main.to(".sc_intro",{
-        y:-100+"%",
+        y:-102+"%",
         duration:1.5,
         "filter":"blur(10px)",
     })
