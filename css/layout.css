@@ -9,7 +9,7 @@ header .logo_area {width: 100%;padding: 50px 50px 0;height: 100px;position: fixe
 
 header .logo_area.up {top: -100px}
 
-header .logo_area.on {background: rgba(255,255,255,0.6);backdrop-filter: blur(10px);color:#222;top: 0;}
+header .logo_area.on {background: rgba(255,255,255,0.6);backdrop-filter: blur(10px);color:#222;}
 
 header .logo_area .logo {position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);font-size: 20px;font-weight: 600;}
 

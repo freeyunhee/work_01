@@ -3,10 +3,24 @@ $(function(){
     $('body').on('mousewheel',function(e){
         var wheel = e.originalEvent.wheelDelta;
         var curr = $(window).scrollTop();
+        // console.log(curr)
+
         if(curr > $(window).height()){
-            if(wheel > 0){$('.logo_area').removeClass('up');} else {$('.logo_area').addClass('up');}  
-            if(curr > 1){$('.logo_area').addClass('on');} else {$('.logo_area').removeClass('on');} 
-        }
+
+        if(wheel > 0){
+            $('.logo_area').removeClass('up');
+        } else {
+            $('.logo_area').addClass('up');
+
+        }  
+        
+        if(curr > 1){
+            $('.logo_area').addClass('on');
+        } else {
+            $('.logo_area').removeClass('on');
+
+        } 
+    }
     });
 
     $(window).scroll(function(){
@@ -17,9 +31,12 @@ $(function(){
 
     $('.logo_area .menu_all').click(function(e){
         e.preventDefault();
-        $('.logo_area').toggleClass('on');
+        $('.logo_area').removeClass('on');
+        $('.logo_area').addClass('on');
         $('.nav_area').toggleClass('on');
     });
+
+
 
     main = gsap.timeline({});
     main.fromTo(".sc_intro img",{scale:0,},{stagger:0.4,scale:1,duration:1.1,})
