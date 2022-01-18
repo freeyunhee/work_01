@@ -483,7 +483,7 @@ main {position: relative;}
     .recomm_main .txt_area {padding: 100px 0;}
     /* recomm_vis */
     .recomm_vis {height:auto;padding: 50px 15px;}
-    .recomm_vis .bg {position: absolute;top: 0;left: 0;}s
+    .recomm_vis .bg {position: absolute;top: 0;left: 0;}
     .recomm_vis .recomm_prod {width: 100%;position:relative;padding: 10px;}
     .recomm_vis .recomm_prod:nth-of-type(1) {top: auto;left: auto;margin-bottom: 50px;}
     .recomm_vis .recomm_prod:nth-of-type(2) {bottom: auto;right: auto;}
